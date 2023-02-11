@@ -1,5 +1,15 @@
-function evenOrOdd(number) {
-  return number % 2 === 0 ? "Even" : "Odd"
-}
+// function evenOrOdd(number) {
+//   return number % 2 === 0 ? "Even" : "Odd"
+// }
 
-console.log(evenOrOdd(25))
+// console.log(evenOrOdd(25))
+
+function splitAndMerge(string, separator) {
+    let words = string.split(' ')
+    let mergedWords = words.map(word => word.split('').join(separator))
+    return mergedWords.join(' ')
+}
+ console.log(splitAndMerge("My name is John", " "))
+ console.log(splitAndMerge("My name is John", "-"))
+ console.log(splitAndMerge("Hello World!", "."))
+ console.log(splitAndMerge("Hello World!", ","))
