@@ -1,10 +1,10 @@
-function remove(r) {
-    return r.replace(/!$/, '')
-}
+// function remove(r) {
+//     return r.replace(/!$/, '')
+// }
 
-console.log(remove("Hi!"))
-console.log(remove("Hi!!!"))
-console.log(remove("!Hi"))
-console.log(remove("!Hi!"))
-console.log(remove("Hi! Hi!"))
-console.log(remove("Hi"))
+// console.log(remove("Hi!"))
+// console.log(remove("Hi!!!"))
+// console.log(remove("!Hi"))
+// console.log(remove("!Hi!"))
+// console.log(remove("Hi! Hi!"))
+// console.log(remove("Hi"))
